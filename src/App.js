@@ -55,6 +55,7 @@ class App extends Component {
     
     return (
         <div className="container">
+            <h5> <b>DATA FROM:</b></h5> <a href="https://jsonplaceholder.typicode.com/users" target="_blank">https://jsonplaceholder.typicode.com/users</a>
           {
             data && <Search config={config} />
           }
